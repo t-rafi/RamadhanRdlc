@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="Report\logo-light.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Report\RamadanReport.rdlc" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.23" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.23">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="ReportViewerCore.NETCore" Version="15.1.33" />
+		<PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RamadanReportProjectLibrary\RamadanReportProject.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Report\RamadanDataSet.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>RamadanDataSet.xsd</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Report\RamadanDataSet.xsd">
+	    <SubType>Designer</SubType>
+	    <LastGenOutput>RamadanDataSet.Designer.cs</LastGenOutput>
+	    <Generator>MSDataSetGenerator</Generator>
+	  </None>
+	</ItemGroup>
+
+</Project>

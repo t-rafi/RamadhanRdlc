@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RamadanReportApp/RamadanReportApp.csproj" />
+  <Project Path="RamadanReportProjectLibrary/RamadanReportProject.csproj" Id="0c4b82b8-5e1f-4cd9-a1d4-862f91bf38e5" />
+</Solution>

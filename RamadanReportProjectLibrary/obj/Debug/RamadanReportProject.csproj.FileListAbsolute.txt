@@ -1,0 +1,6 @@
+C:\Users\jaki.islam\source\repos\RamadanReportApp\RamadanReportProjectLibrary\bin\Debug\RamadanReportProjectLibrary.dll
+C:\Users\jaki.islam\source\repos\RamadanReportApp\RamadanReportProjectLibrary\bin\Debug\RamadanReportProjectLibrary.pdb
+C:\Users\jaki.islam\source\repos\RamadanReportApp\RamadanReportProjectLibrary\obj\Debug\RamadanReportProject.csproj.AssemblyReference.cache
+C:\Users\jaki.islam\source\repos\RamadanReportApp\RamadanReportProjectLibrary\obj\Debug\RamadanReportProject.csproj.CoreCompileInputs.cache
+C:\Users\jaki.islam\source\repos\RamadanReportApp\RamadanReportProjectLibrary\obj\Debug\RamadanReportProjectLibrary.dll
+C:\Users\jaki.islam\source\repos\RamadanReportApp\RamadanReportProjectLibrary\obj\Debug\RamadanReportProjectLibrary.pdb

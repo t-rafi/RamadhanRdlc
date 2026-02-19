@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RamadanDataSet" targetNamespace="http://tempuri.org/RamadanDataSet.xsd" xmlns:mstns="http://tempuri.org/RamadanDataSet.xsd" xmlns="http://tempuri.org/RamadanDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RamadanDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="RamadanDataSet" msprop:Generator_DataSetName="RamadanDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RamadanTable" msprop:Generator_RowEvHandlerName="RamadanTableRowChangeEventHandler" msprop:Generator_RowDeletedName="RamadanTableRowDeleted" msprop:Generator_RowDeletingName="RamadanTableRowDeleting" msprop:Generator_RowEvArgName="RamadanTableRowChangeEvent" msprop:Generator_TablePropName="RamadanTable" msprop:Generator_RowChangedName="RamadanTableRowChanged" msprop:Generator_RowChangingName="RamadanTableRowChanging" msprop:Generator_TableClassName="RamadanTableDataTable" msprop:Generator_RowClassName="RamadanTableRow" msprop:Generator_TableVarName="tableRamadanTable" msprop:Generator_UserTableName="RamadanTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RamadanDate" msprop:Generator_ColumnPropNameInRow="RamadanDate" msprop:Generator_ColumnPropNameInTable="RamadanDateColumn" msprop:Generator_ColumnVarNameInTable="columnRamadanDate" msprop:Generator_UserColumnName="RamadanDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="HijriDate" msprop:Generator_ColumnPropNameInRow="HijriDate" msprop:Generator_ColumnPropNameInTable="HijriDateColumn" msprop:Generator_ColumnVarNameInTable="columnHijriDate" msprop:Generator_UserColumnName="HijriDate" type="xs:string" minOccurs="0" />
+              <xs:element name="SehriTime" msprop:Generator_ColumnPropNameInRow="SehriTime" msprop:Generator_ColumnPropNameInTable="SehriTimeColumn" msprop:Generator_ColumnVarNameInTable="columnSehriTime" msprop:Generator_UserColumnName="SehriTime" type="xs:string" minOccurs="0" />
+              <xs:element name="IftarTime" msprop:Generator_ColumnPropNameInRow="IftarTime" msprop:Generator_ColumnPropNameInTable="IftarTimeColumn" msprop:Generator_ColumnVarNameInTable="columnIftarTime" msprop:Generator_UserColumnName="IftarTime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
